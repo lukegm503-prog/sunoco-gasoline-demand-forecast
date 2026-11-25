@@ -131,4 +131,4 @@ All data is public. The target is EIA's weekly U.S. product supplied of finished
 
 ---
 
-Luke | Business Analytics & Marketing, Trinity University
+Luke | Business Analytics, Trinity University
