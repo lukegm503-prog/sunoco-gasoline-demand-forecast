@@ -1,0 +1,8 @@
+model,label,panel,train_window,validation_mape,validation_rmse,walk_forward_cv_mape,composite_mape,cv_fold_mapes
+prophet,Model 7: Prophet,linear_v5,y2001,2.707,288.5,3.041,2.874,2.06 / 2.22 / 4.16 / 3.72
+arimax,Model 6: ARIMAX,linear_v5,full,3.191,342.2,3.072,3.132,2.18 / 2.50 / 4.29 / 3.32
+stepwise_ols,Model 2: Stepwise OLS,linear_v4,y2001,3.106,326.0,3.16,3.133,2.18 / 2.49 / 4.26 / 3.71
+ridge,Model 3: Ridge Regression,linear_v5,y2001,2.96,322.1,3.653,3.307,2.33 / 2.46 / 6.11 / 3.71
+random_forest,Model 4: Random Forest,tree,y2012,2.877,312.7,5.058,3.968,9.44 / 3.55 / 3.86 / 3.38
+xgboost,Model 5: XGBoost,tree,y2012,2.601,287.9,5.38,3.99,10.01 / 4.29 / 3.92 / 3.29
+simple_linear,Model 1: Simple Linear Regression (baseline),linear_v5,full,7.699,738.2,9.022,8.361,11.94 / 4.63 / 10.85 / 8.67
